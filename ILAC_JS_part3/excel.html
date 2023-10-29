@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Excel form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="excel.html">Excel</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Excel functions:</h2>
+
+
+        <label for="nbrs">Enter your numbers separeted by spaces: </label>
+        <input type="text" id="nbrs"><br><br>
+
+
+        <input type="radio" id="sum" name="function" checked>
+        <label for="sum">Sum</label><br>
+
+        <input type="radio" id="avg" name="function">
+        <label for="avg">Average</label><br>
+
+        <input type="radio" id="max" name="function">
+        <label for="max">Maximum</label><br>
+
+        <input type="radio" id="min" name="function">
+        <label for="min">Minimum</label><br>
+
+        <br><br><br>
+
+        <button type="button" onclick="myExcelFuns()">Calculate</button>
+
+
+        <div id="output">
+            <br>
+            <label for="result">Result: </label>
+            <input type="text" id="result" readonly>
+
+        </div>
+
+
+
+
+    </main>
+
+    <footer>
+        <p>
+            ILAC & EFREI - HTML, CSS, and JavaScript Assignment - Ethan Sebagh
+        </p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+
+
+</body>
+</html>
