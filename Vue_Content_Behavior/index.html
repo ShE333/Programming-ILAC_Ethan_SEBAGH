@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>Clouds documentation</title>
+</head>
+
+<body>
+    <header>
+        <h1>DIFFERENT TYPES OF CLOUD:</h1>
+    </header>
+
+
+    <main>
+        <div id="app">
+
+            <div id="display">
+                <img :src="currentCard.image" alt="">
+                <br>
+
+
+                <button id="previous" @click="prevCard">⇽</button>
+                <button id="next" @click="nextCard">⇾</button>
+                <br>
+                <br>
+                <br>
+
+                <fieldset>
+                    <h2>{{ currentCard.Title }}</h2>
+                    <p>{{ currentCard.Desc }}</p>
+                    <script src="js/script.js"></script>
+                </fieldset>
+
+
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <p>Group AWP10: Ethan SEBAGH & Arthur LAFAILLE</p>
+    </footer>
+</body>
+</html>
