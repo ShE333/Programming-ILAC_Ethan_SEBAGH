@@ -3,22 +3,26 @@
     {
       "model": "Smooth Leather",
       "shoes": true,
-      "boots": true
+      "boots": true,
+      "freeShipping" : true
     },
     {
       "model": "Milled Nuckbuck",
       "shoes": true,
-      "boots": true
+      "boots": true,
+      "freeShipping" : false
     },
     {
       "model": "Crazy Horse",
       "shoes": true,
-      "boots": false
+      "boots": false,
+      "freeShipping" : false
     },
     {
       "model": "Cream Leather",
       "shoes": true,
-      "boots": false
+      "boots": false,
+      "freeShipping" : false
     }
   ]
 }

@@ -54,6 +54,7 @@ const app = Vue.createApp({
         updateStock() {
             const currentShoes = this.modelList[this.currentShoesIndex];
 
+
             // Vérifie si l'élément actuel existe dans stockData
             const stockElement = this.stockData.stock.find(element => element.model === currentShoes.model);
 

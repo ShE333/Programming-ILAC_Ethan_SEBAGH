@@ -28,7 +28,7 @@
         <a href="https://www.drmartens.com/ca/en_ca/?gclid=Cj0KCQiA4NWrBhD-ARIsAFCKwWvVtZrShDHxDBcvudgh9aIswAOoK0LRlNLeXoL6tWyK4ByTmKi2A20aApHQEALw_wcB"><h1>Dr. Martens</h1></a>
 
 
-        <img src="img/free_shipping.png" alt="free_shipping" id="free_ship">
+
 
 
         
@@ -37,14 +37,16 @@
 
         <div class="part" id="shoes" v-show="currentSection === 'shoes'" :key="currentShoesIndex">
             <!-- Vérification de nullité avant d'accéder à la propriété -->
-            <h2>{{ modelList.length > 0 ? modelList[currentShoesIndex].shoesName : '' }}</h2>
+            <h2>{{ modelList.length > 0 ? modelList[currentShoesIndex].model : '' }}</h2>
+            <img v-if="true" src="img/free_shipping.png" alt="free_shipping" class="free_ship">
             <img :src="modelList.length > 0 ? modelList[currentShoesIndex].shoes.image : ''" alt="Shoes Image">
             <h3>{{ modelList.length > 0 ? `CAD$ ${modelList[currentShoesIndex].shoes.price.toFixed(2)}` : '' }}</h3>
         </div>
 
         <div class="part" id="boots" v-show="currentSection === 'boots'" key="boots">
             <!-- Vérification de nullité avant d'accéder à la propriété -->
-            <h2>{{ modelList.length > 0 ? modelList[currentShoesIndex].shoesName : '' }}</h2>
+            <h2>{{ modelList.length > 0 ? modelList[currentShoesIndex].model : '' }}</h2>
+            <img v-if="false" src="img/free_shipping.png" alt="free_shipping" class="free_ship">
             <img :src="modelList.length > 0 ? modelList[currentShoesIndex].boots.image : ''" alt="Boots Image">
             <h3>{{ modelList.length > 0 ? `CAD$ ${modelList[currentShoesIndex].boots.price.toFixed(2)}` : '' }}</h3>
         </div>
