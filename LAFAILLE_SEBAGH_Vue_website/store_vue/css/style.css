@@ -9,7 +9,7 @@
 html{
     /*background-image: url("../img/Burberry.jpg");*/
     background-color: #1e1f22;
-    font-family: font;
+
 
 }
 
@@ -29,7 +29,7 @@ a{
     background-color: #e3e1e2;
     color: #ffc300;
     text-shadow: 0 0 30px black;
-    font-size: 3vh;
+    font-size: 2.5vh;
     padding-top:3.5vh ;
     border: white solid 2px;
     border-radius: 10px;
@@ -88,11 +88,12 @@ h1{
     background-color: saddlebrown;
     margin-left: 10%;
     border-radius: 10px;
+    font-family: font;
 
 }
 h2{
     color: #000000;
-    font-size: 7.5vh;
+    font-size: 7vh;
     text-align: center;
     text-decoration: underline;
     margin: 2vh;
@@ -100,7 +101,7 @@ h2{
 
 }
 h3{
-    font-size: 7vh;
+    font-size: 6.5vh;
     margin: 2vh;
     color: #ffc300;
     text-shadow: 0 0 20px black;
@@ -119,7 +120,7 @@ img{
     height: 8vh;
     width: 4vw;
     top: 45vh;
-    font-size: 6vh;
+    font-size: 5.5vh;
     position: absolute;
     background-color: #ffc300;
     color: black;
@@ -146,7 +147,7 @@ img{
 
 footer{
     text-align: center;
-    font-size: xxx-large;
+    font-size: xx-large;
     color: #ffc300;
     text-shadow: 0 0 10px black;
     background-color: saddlebrown;
@@ -164,11 +165,11 @@ footer{
     width: 20vw;
     height: 12vh;
     background-color: peachpuff;
-    font-size: 8vh;
+    font-size: 6.5vh;
     color: saddlebrown;
     border-radius: 10px;
     border: saddlebrown 3px solid;
-    font-family: font;
+
     box-shadow: 0 0 30px saddlebrown;
 
 }
@@ -180,7 +181,7 @@ footer{
 
 }
 .nostock{
-    font-family: font;
+
     background-color: grey;
     color: black;
     cursor: not-allowed;
@@ -189,7 +190,7 @@ footer{
     left: 55vw;
     width: 20vw;
     height: 12vh;
-    font-size: 8vh;
+    font-size: 6.5vh;
     border-radius: 10px;
     border: white 3px solid;
     box-shadow: 0 0 30px black;
@@ -209,7 +210,7 @@ footer{
 
 #basket p {
     text-align: center;
-    font-size: 25px;
+    font-size: 22.5px;
     margin-top: 7px;
     padding-top: 5px;
 
