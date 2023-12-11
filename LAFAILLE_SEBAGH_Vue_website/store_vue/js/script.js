@@ -12,8 +12,8 @@ const app = Vue.createApp({
     mounted() {
         // Fetch des fichiers JSON en parallèle
         Promise.all([
-            fetch('../vue_store/package.json').then(response => response.json()),
-            fetch('../vue_store/stock.json').then(response => response.json())
+            fetch('../store_vue/package.json').then(response => response.json()),
+            fetch('../store_vue/stock.json').then(response => response.json())
         ])
         .then(data => {
             // Stockage des données dans les propriétés correspondantes
