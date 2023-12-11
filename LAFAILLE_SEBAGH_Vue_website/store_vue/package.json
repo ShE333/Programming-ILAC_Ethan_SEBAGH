@@ -1,0 +1,48 @@
+{
+  "docMartens": [
+    {
+      "model": "Smooth Leather",
+      "shoes": {
+        "image": "img/SLshoes.jpeg",
+        "price": 185.00
+      },
+      "boots": {
+        "image": "img/SLboots.jpeg",
+        "price": 210.00
+      }
+    },
+    {
+      "model": "Milled Nuckbuck",
+      "shoes": {
+        "image": "img/MNshoes.jpg",
+        "price": 195.00
+      },
+      "boots": {
+        "image": "img/MNboots.jpg",
+        "price": 225.00
+      }
+    },
+    {
+      "model": "Crazy Horse",
+      "shoes": {
+        "image": "img/CHshoes.jpg",
+        "price": 195.00
+      },
+      "boots": {
+        "image": "img/CHboots.jpg",
+        "price": 225.00
+      }
+    },
+    {
+      "model": "Cream Leather",
+      "shoes": {
+        "image": "img/CLshoes.jpg",
+        "price": 170.00
+      },
+      "boots": {
+        "image": "img/CLboots.jpg",
+        "price": 220.00
+      }
+    }
+  ]
+}

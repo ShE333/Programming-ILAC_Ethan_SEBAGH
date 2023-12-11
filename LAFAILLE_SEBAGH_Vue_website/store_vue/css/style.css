@@ -1,0 +1,223 @@
+@font-face {
+    font-family: font;
+    src: url("../LOXLEY__.TTF");
+    /*src: url("../Thermometer-Bold.otf")*/
+
+}
+
+
+html{
+    /*background-image: url("../img/Burberry.jpg");*/
+    background-color: #1e1f22;
+    font-family: font;
+
+}
+
+
+a{
+    text-decoration: none;
+
+}
+
+
+.swip{
+    margin-bottom: 0;
+    margin-top: 30px;
+    text-align: center;
+    width: 40vw;
+    height: 6.5vh;
+    background-color: #e3e1e2;
+    color: #ffc300;
+    text-shadow: 0 0 30px black;
+    font-size: 3vh;
+    padding-top:3.5vh ;
+    border: white solid 2px;
+    border-radius: 10px;
+
+}
+.active-swip {
+    background-color: saddlebrown;
+    border-color: peachpuff;
+    color: peachpuff;
+
+}
+.swip:hover{
+    cursor: pointer;
+    background-color: saddlebrown;
+    border-color: peachpuff;
+    color: peachpuff;
+
+}
+#swipboard{
+    display: flex;
+    margin-left: 10vw;
+    border-radius: 3%;
+
+}
+
+
+.part{
+     margin-top: 0;
+     width: 80vw;
+     margin-left: 10vw;
+     border-radius: 10px;
+     background-color: #e3e1e2;
+     height: 65vh;
+
+ }
+
+
+#app{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+h1{
+    font-size: 12vh;
+    width: 80vw;
+    margin: 0;
+    margin-bottom: 2vh;
+    text-align: center;
+    color: #ffc300;
+    text-shadow: 0 0 30px black;
+    margin-top: 2vh;
+    background-color: saddlebrown;
+    margin-left: 10%;
+    border-radius: 10px;
+
+}
+h2{
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+    text-decoration: underline;
+    margin: 2vh;
+    margin-top: 0;
+
+}
+h3{
+    font-size: 7vh;
+    margin: 2vh;
+    color: #ffc300;
+    text-shadow: 0 0 20px black;
+    text-align: center;
+
+}
+img{
+    width: 15vw;
+    margin-left: 17.5vw;
+    aspect-ratio: 1/1.5;
+
+}
+
+
+#next , #prev{
+    height: 8vh;
+    width: 4vw;
+    top: 45vh;
+    font-size: 6vh;
+    position: absolute;
+    background-color: #ffc300;
+    color: black;
+    border-radius: 50%;
+    border: 3px white solid;
+    cursor: pointer;
+    cursor: pointer;
+
+}
+#next{
+    left: 92vw;
+
+}
+#prev{
+    left: 5.5vw;
+
+}
+#next:hover, #prev:hover{
+    background-color: black;
+    color: #ffc300;
+
+}
+
+
+footer{
+    text-align: center;
+    font-size: xxx-large;
+    color: #ffc300;
+    text-shadow: 0 0 10px black;
+    background-color: saddlebrown;
+    border-radius: 10px;
+    width: 80vw;
+    margin-left: 10%;
+
+}
+
+
+.instock{
+    position: absolute;
+    top: 40vh;
+    left: 55vw;
+    width: 20vw;
+    height: 12vh;
+    background-color: peachpuff;
+    font-size: 8vh;
+    color: saddlebrown;
+    border-radius: 10px;
+    border: saddlebrown 3px solid;
+    font-family: font;
+    box-shadow: 0 0 30px saddlebrown;
+
+}
+.instock:hover{
+    background-color: saddlebrown;
+    color: peachpuff;
+    cursor: pointer;
+    box-shadow: 0 0 30px peachpuff;
+
+}
+.nostock{
+    font-family: font;
+    background-color: grey;
+    color: black;
+    cursor: not-allowed;
+    position: absolute;
+    top: 40vh;
+    left: 55vw;
+    width: 20vw;
+    height: 12vh;
+    font-size: 8vh;
+    border-radius: 10px;
+    border: white 3px solid;
+    box-shadow: 0 0 30px black;
+
+}
+
+
+#basket{
+    border-radius: 3%;
+    background-color: saddlebrown;
+    height: 100px;
+    position: absolute;
+    margin-left: 75%;
+    text-shadow: 0 0 10px #e3e1e2;
+
+}
+
+#basket p {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 7px;
+    padding-top: 5px;
+
+}
+
+#free_ship{
+    position: absolute;
+    margin-bottom: 65%;
+    margin-left: 75%;
+    aspect-ratio: 0.5/0.5;
+}

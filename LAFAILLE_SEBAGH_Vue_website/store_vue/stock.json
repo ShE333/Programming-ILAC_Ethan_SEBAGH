@@ -1,0 +1,24 @@
+{
+  "stock": [
+    {
+      "model": "Smooth Leather",
+      "shoes": true,
+      "boots": true
+    },
+    {
+      "model": "Milled Nuckbuck",
+      "shoes": true,
+      "boots": true
+    },
+    {
+      "model": "Crazy Horse",
+      "shoes": true,
+      "boots": false
+    },
+    {
+      "model": "Cream Leather",
+      "shoes": true,
+      "boots": false
+    }
+  ]
+}
