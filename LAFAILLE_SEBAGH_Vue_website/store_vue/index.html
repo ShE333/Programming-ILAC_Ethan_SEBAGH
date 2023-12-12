@@ -3,68 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Martens store</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>Clouds documentation</title>
 </head>
+
 <body>
-    
-    <div id="app">
-        <div id="basket">
-            <strong>
-                <p>Total basket price:</p>
-                <p>CAD$ {{total}}</p>
-            </strong>
+    <header>
+        <h1>DIFFERENT TYPES OF CLOUD:</h1>
+    </header>
 
+
+    <main>
+        <div id="app">
+
+            <div id="display">
+                <img :src="currentCard.image" alt="">
+                <br>
+
+
+                <button id="previous" @click="prevCard">⇽</button>
+                <button id="next" @click="nextCard">⇾</button>
+                <br>
+                <br>
+                <br>
+
+                <fieldset>
+                    <h2>{{ currentCard.Title }}</h2>
+                    <p>{{ currentCard.Desc }}</p>
+                    <script src="js/script.js"></script>
+                </fieldset>
+
+
+            </div>
         </div>
-        <button :class="{ 'instock': stock, 'nostock': !stock }" @click="addValue">{{ stock ? 'Add to cart' : 'Out of Stock' }}</button>
-        <button  id="next" @click="nextShoes">►</button>
-        <button id="prev" @click="prevShoes">◄</button>
+    </main>
 
 
-
-
-
-        <a href="https://www.drmartens.com/ca/en_ca/?gclid=Cj0KCQiA4NWrBhD-ARIsAFCKwWvVtZrShDHxDBcvudgh9aIswAOoK0LRlNLeXoL6tWyK4ByTmKi2A20aApHQEALw_wcB"><h1>Dr. Martens</h1></a>
-
-
-
-
-
-        
-        
-        
-
-        <div class="part" id="shoes" v-show="currentSection === 'shoes'" :key="currentShoesIndex">
-            <!-- Vérification de nullité avant d'accéder à la propriété -->
-            <h2>{{ modelList.length > 0 ? modelList[currentShoesIndex].model : '' }}</h2>
-            <img v-if="true" src="img/free_shipping.png" alt="free_shipping" class="free_ship">
-            <img :src="modelList.length > 0 ? modelList[currentShoesIndex].shoes.image : ''" alt="Shoes Image">
-            <h3>{{ modelList.length > 0 ? `CAD$ ${modelList[currentShoesIndex].shoes.price.toFixed(2)}` : '' }}</h3>
-        </div>
-
-        <div class="part" id="boots" v-show="currentSection === 'boots'" key="boots">
-            <!-- Vérification de nullité avant d'accéder à la propriété -->
-            <h2>{{ modelList.length > 0 ? modelList[currentShoesIndex].model : '' }}</h2>
-            <img v-if="false" src="img/free_shipping.png" alt="free_shipping" class="free_ship">
-            <img :src="modelList.length > 0 ? modelList[currentShoesIndex].boots.image : ''" alt="Boots Image">
-            <h3>{{ modelList.length > 0 ? `CAD$ ${modelList[currentShoesIndex].boots.price.toFixed(2)}` : '' }}</h3>
-        </div>
-
-
-
-        <div id="swipboard">
-            <div :class="{ 'swip': true, 'active-swip': currentSection === 'shoes' }"  @click="swipSection('shoes')">Shoes</div>
-            <div :class="{ 'swip': true, 'active-swip': currentSection === 'boots' }"  @click="swipSection('boots')">Boots</div>
-        </div>
-
-
-        
-    </div>
-    <script src="js/script.js"></script>
     <footer>
-       <p>Advanced Web Programming @ ILAC <br>
-           Group AWP10: Ethan SEBAGH & Arthur LAFAILLE</p>
+        <p>Group AWP10: Ethan SEBAGH & Arthur LAFAILLE</p>
     </footer>
 </body>
 </html>
